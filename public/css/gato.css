@@ -1,0 +1,43 @@
+body {
+    overflow: hidden;
+}
+.perro_img {
+    width: 530px;
+    position: relative;
+    top: 30px;
+    left: -5px;
+}
+
+.contenedor {
+    position: relative;
+    left: 12%;
+    top: -560px;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen {
+    width: 19%; /* Ancho de las imágenes */
+    height: auto; /* Altura se ajusta al contenido */
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.imagen.grande {
+    width: 19%; /* Ancho de la imagen grande */
+    margin-top: 20px;
+}
+
+/* -------------------------------- */
+@media (max-width: 600px) {
+    .perro_img {
+        width: 200px;
+        position: relative;
+        left: 25%;
+        top: 12px;
+        border-radius: 20%;
+    }
+}

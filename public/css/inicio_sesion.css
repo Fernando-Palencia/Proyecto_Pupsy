@@ -1,0 +1,134 @@
+body {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+section {
+    font-family: Arial, sans-serif;
+    background: url("../img/register.jpeg") no-repeat center 1%/49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    padding: 0;
+    border-radius: 5px;
+    top: -10%;
+}
+
+/* Eliminamos el borde y el margen inferior de .form-group */
+.form-group {
+    border: none;
+    margin-bottom: 0; /* Eliminamos el margen inferior */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    position: relative;
+    background-color: #744ece;
+    color: #fff;
+    border: none;
+    padding: 7px 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    left: 70%;
+}
+
+input[type="submit"]:hover {
+    background-color: #baa0f7;
+}
+
+/* Estilo para los campos de formulario */
+#name,
+#username,
+#celular,
+#ciudad,
+#correo,
+#password,
+#password_confirmation {
+    border: none;
+    border-bottom: 2px solid #999; /* Línea inferior de 10px de color gris */
+    width: 100%; /* Ancho completo */
+    padding: 5px 0; /* Espaciado interno superior e inferior */
+    font-size: 16px; /* Tamaño de fuente */
+    outline: none; /* Sin contorno al enfocar */
+    background: transparent; /* Fondo transparente */
+    margin-bottom: 30px;
+}
+
+.file-input-label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.circle-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #779fca; /* Color de fondo ajustable según tus preferencias */
+    color: #fff; /* Color del icono */
+    font-size: 20px;
+    overflow: hidden; /* Ocultar el contenido que se desborde del círculo */
+}
+
+/* Estilo para ocultar el input de archivo */
+.d-none {
+    display: none;
+}
+.photo-preview {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.photo-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fbfdff; /* Color de fondo ajustable según tus preferencias */
+    color: #fff; /* Color del icono */
+    font-size: 20px;
+    overflow: hidden; /* Ocultar el contenido que se desborde del círculo */
+}
+
+.circle-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-preview {
+    display: none; /* Ocultar la foto al principio */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}

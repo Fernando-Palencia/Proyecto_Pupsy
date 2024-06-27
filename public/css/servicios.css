@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+@font-face {
+    font-family: "MiFuentePersonalizada";
+    src: url("../fonts/cherry-blossoms-simple.otf") format("opentype");
+}
+
+.title {
+    font-family: "MiFuentePersonalizada", fallback, sans-serif;
+    font-size: 70px;
+    color: #744ece;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around; /* Esto añade espacio alrededor de las tarjetas */
+    flex-wrap: wrap; /* Esto permite que las tarjetas se envuelvan a la siguiente línea si no hay suficiente espacio */
+}
+.card {
+    max-width: 430px;
+    border: 5px solid #744ece;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    top: 140px;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 80%;
+    border-top: 5px solid #744ece;
+}

@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    overflow-y: hidden;
+}
+section {
+    font-family: Arial, sans-serif;
+    background: url("../img/login\ .jpeg") no-repeat center 1%/40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    padding: 0;
+    border-radius: 5px;
+    left: -5%;
+    top: -10%;
+}
+
+/* Eliminamos el borde y el margen inferior de .form-group */
+.form-group {
+    border: none;
+    margin-bottom: 0; /* Eliminamos el margen inferior */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    position: relative;
+    background-color: #744ece;
+    color: #fff;
+    border: none;
+    padding: 7px 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    top: 120px;
+    left: 70%;
+}
+
+input[type="submit"]:hover {
+    background-color: #baa0f7;
+}
+
+/* Estilo para los campos de formulario */
+#name,
+#username,
+#celular,
+#ciudad,
+#correo,
+#password,
+#password_confirmation {
+    border: none;
+    border-bottom: 2px solid #999; /* Línea inferior de 10px de color gris */
+    width: 120%; /* Ancho completo */
+    padding: 5px 0; /* Espaciado interno superior e inferior */
+    font-size: 16px; /* Tamaño de fuente */
+    outline: none; /* Sin contorno al enfocar */
+    background: transparent; /* Fondo transparente */
+    margin-bottom: 30px;
+}

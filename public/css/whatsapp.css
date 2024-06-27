@@ -1,0 +1,10 @@
+.bi-whatsapp {
+    position: absolute;
+    font-size: 1.7em; /* Cambia el tamaño del icono */
+    color: white; /* Cambia el color del icono a blanco */
+    background-color: green; /* Cambia el color de fondo a verde */
+    padding: 0.5em; /* Agrega un espacio alrededor del icono */
+    border-radius: 50%; /* Hace que el fondo sea circular */
+    margin-left: 95%;
+    top: 850px;
+}

@@ -1,0 +1,71 @@
+/* Segunda barra de navegación */
+.second-navbar {
+    position: static;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1px;
+    background-color: #744ece;
+    color: #fff;
+}
+
+/* Estilos de los iconos */
+.bi-instagram,
+.bi-facebook {
+    position: relative;
+    font-size: 2.5em;
+    cursor: pointer;
+    left: 730px;
+    margin-left: 20px;
+}
+
+.bi-cart4 {
+    position: relative;
+    font-size: 3em;
+    cursor: pointer;
+    right: 820px;
+    color: #fff;
+}
+
+.perros {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+/* Consulta de medios para teléfonos móviles */
+@media only screen and (max-width: 600px) {
+    .second-navbar {
+        flex-direction: column;
+    }
+
+    .bi-instagram,
+    .bi-facebook,
+    .bi-cart4 {
+        font-size: 2em;
+        left: 100px;
+        right: 10px;
+    }
+
+    .bi-cart4 {
+        font-size: 2em;
+        left: -70px;
+    }
+
+    .perros {
+        width: 50%;
+        height: 50vh;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Ubuntu;
+        color: white;
+        font-weight: 10;
+        font-size: 10px;
+    }
+}

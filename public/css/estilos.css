@@ -1,0 +1,222 @@
+/* Estilos comunes para ambos dispositivos */
+* {
+    list-style: none;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.logo {
+    position: relative;
+    left: 60px;
+}
+
+/* Barra de navegación principal */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #e4c4f7;
+    color: #fff;
+}
+
+/* Botones */
+.bottom-button {
+    position: relative;
+    background-color: #744ece;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+    left: 102%;
+    top: -20px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5); /* Pequeña sombra en la parte inferior */
+}
+
+.btn_registro {
+    background-color: #ffffff;
+    color: #744ece;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+    width: 135px;
+    border-radius: 10px;
+    text-decoration: none;
+    position: relative;
+    left: 132%;
+    top: -75px;
+    box-shadow: inset 0px -3px 5px rgba(56, 54, 54, 0.8),
+        0px 5px 8px rgba(38, 37, 37, 0.3);
+}
+
+.btn_inicio {
+    background-color: #ffffff;
+    color: #744ece;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+    width: 135px;
+    border-radius: 10px;
+    text-decoration: none;
+    position: relative;
+    left: 136%;
+    top: -75px;
+    box-shadow: inset 0px -3px 5px rgba(56, 54, 54, 0.8),
+        0px 5px 8px rgba(38, 37, 37, 0.3);
+}
+
+/* Estilos de los enlaces de navegación */
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: -1rem;
+    margin-right: 70px; /* mover links a la derecha*/
+}
+
+.nav-links a {
+    position: relative;
+    left: 10px;
+    text-decoration: none;
+    font-weight: 530;
+    font-size: 32px;
+    color: #744ece;
+    top: 22px;
+}
+
+.nav-links a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.butom-busqueda {
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    background-color: #744ece;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+    border: none;
+    margin-left: 70px;
+    position: relative;
+    top: 22px;
+}
+
+/* Estilo de la barra de búsqueda */
+.buscar {
+    height: 40px;
+    width: 70%;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    position: relative;
+    left: -3px;
+    top: 22px;
+}
+
+.barra {
+    position: relative;
+    left: 19.5%;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+  .navbar {
+      padding: 10px; /* Reducir el padding de la barra de navegación */
+  }
+
+  .nav-links {
+      margin-right: 10px; /* Reducir el margen derecho de los enlaces de navegación */
+  }
+
+  .btn_inicio {
+    background-color: #ffffff;
+    color: #744ece;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 10px;
+    text-decoration: none;
+    position: relative;
+    left: 86%;
+    top: -75px;
+    box-shadow: inset 0px -3px 5px rgba(56, 54, 54, 0.8),
+        0px 5px 8px rgba(38, 37, 37, 0.3);
+}
+  .btn_registro {
+    background-color: #ffffff;
+    color: #744ece;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 10px;
+    text-decoration: none;
+    position: relative;
+    left: 85%;
+    top: -75px;
+    box-shadow: inset 0px -3px 5px rgba(56, 54, 54, 0.8),
+        0px 5px 8px rgba(38, 37, 37, 0.3);
+
+  }
+
+  .bottom-button {
+    position: relative;
+    background-color: #744ece;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+    left: 52%;
+    top: -20px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5); /* Pequeña sombra en la parte inferior */
+}
+
+  .butom-busqueda {
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    background-color: #744ece;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+    border: none;
+    margin-left: -20px;
+    position: relative;
+    top: 22px;
+}
+
+.buscar {
+  height: 40px;
+  width: 60%;
+  border-radius: 0 15px 15px 0;
+  border: none;
+  position: relative;
+  left: -3px;
+  top: 22px;
+}
+.nav-links a {
+  position: relative;
+  left: -125px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 28px;
+  color: #744ece;
+  top: 22px;
+}
+}
